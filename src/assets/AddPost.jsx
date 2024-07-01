@@ -40,6 +40,7 @@ function AddPost({text, setText}) {
           />
           <label htmlFor="file">
           <MdOutlinePermMedia className={`h-6 w-6 text-green-600  `} />
+          <h1>Media</h1>
           </label>
          
           
