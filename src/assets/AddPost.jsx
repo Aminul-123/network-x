@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ReactPlayer from 'react-player';
+//import ReactPlayer from 'react-player';
 import { MdOutlinePermMedia } from "react-icons/md";
 import { BsCalendar3Event } from "react-icons/bs";
 import { PiArticleNyTimesDuotone } from "react-icons/pi";
