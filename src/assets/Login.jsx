@@ -16,7 +16,11 @@ function Login() {
           hover:border-white ">
             Join now
           </button>
-          <button className="h-[2rem] w-[5rem] border text-blue-600 border-blue-500 rounded-xl ">
+          <button className="h-[2rem] w-[5rem] border text-blue-600 border-blue-500 
+          
+          rounded-xl 
+          hover:bg-blue-400 hover:text-white hover:border-none
+          ">
             Sign in
           </button>
         </div>
