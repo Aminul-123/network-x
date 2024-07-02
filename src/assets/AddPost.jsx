@@ -171,7 +171,7 @@ function AddPost({text, setText}) {
                   onChange={(e) => setVideoLink(e.target.value)}
                   className='border border-gray-300 w-full pl-2 p-2 mt-2 mb-3'
                   />
-                  {
+                  {/* {
                     videoLink &&
                     (
                       <div className='h-40 w-[60%] mt-2 mb-3 flex justify-center'>
@@ -179,7 +179,7 @@ function AddPost({text, setText}) {
                       </div>
                        
                     )
-                  }
+                  } */}
                   
                 </div>
                     </>
