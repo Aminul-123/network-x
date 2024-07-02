@@ -34,7 +34,7 @@ function Login() {
           >
             Welcome to your professional community
           </h1>
-          <button className="h-8 w-80 my-8 px-10 border border-black rounded-2xl text-center hover:bg-gray-200 ">
+          <button className="h-8 w-80 my-8 px-10 border border-black rounded-2xl text-center ">
           <FcGoogle className="relative top-1 left-5 h-6 w-6" /> <span className=" relative bottom-5 ">
           Sign in with Google
             </span>
