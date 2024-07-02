@@ -175,7 +175,7 @@ function AddPost({text, setText}) {
                     videoLink &&
                     (
                       <div className='h-40 w-[60%] mt-2 mb-3 flex justify-center'>
-                          <ReactPlayer  height={'10rem'} url={videoLink}  />
+                          <ReactPlayer  url={videoLink}  />
                       </div>
                        
                     )
