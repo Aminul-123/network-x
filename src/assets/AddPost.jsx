@@ -102,8 +102,8 @@ function AddPost({text, setText}) {
    showModal === 'open' && (
 
     
-    <section className='fixed  top-0 left-0 right-0 bottom-0 z-50'>
-         <div className='w-[100%] max-w-96 bg-white  border border-black p-3 rounded flex flex-col relative
+    <section className='fixed left-0  w-full top-0 ml-4 lg:left-[27%] lg:w-[35rem] right-0 bottom-0 z-50'>
+         <div className='w-[100%]  bg-white  border border-gray-400 p-3 rounded flex flex-col relative
          top-8'>
 
           <div className='flex justify-between '>

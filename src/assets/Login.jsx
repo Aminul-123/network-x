@@ -1,6 +1,6 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-import { auth } from "../../firebase.js";
+import { auth } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
@@ -34,7 +34,7 @@ function Login() {
           rounded-xl 
           hover:bg-blue-400 hover:text-white hover:border-none
           "
-            onClick={googleClick}
+           
           >
             Sign in
           </button>
