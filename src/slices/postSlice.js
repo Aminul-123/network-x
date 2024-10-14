@@ -1,4 +1,13 @@
-import {createSlice} from '@reduxjs/toolkit'
+import { createSlice} from '@reduxjs/toolkit'
+// import { getPost } from '../services/getPostData'
+
+//LETS LEAVE THIS FOR LATER.
+// export const fetchPostData = createAsyncThunk('post/fetchPostData', async function () {
+//     // now got the solution - create service file -> then make a func getPost and -> fetch all the post using js fetch method return the data and here this is without using useEffect . -> call the function here -> return some value -> then create the reducer function as it is described in the docs.
+//     const post = await getPost();
+//     return post;
+// })
+
 const initialState = {
     description : '',
     image : {},

@@ -1,20 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
 import { CiSettings } from "react-icons/ci";
 import { AiFillLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
-import { useSelector } from 'react-redux';
 function Post({post}) {
-  const [like , setLike ] = useState(10)
-  const desc = useSelector((state) => state?.post?.description)
-  const image = useSelector((state) => state?.post?.image)
 
   //console.log(desc, image)
   const [isFollowing, setIsFollowing] = useState(false)
-
-  function handleLike () {
-    setLike((like) => like + 1);
-  }
 
  
   return (
@@ -67,13 +59,13 @@ function Post({post}) {
           {/* like comment functionality */}
           <div className='flex items-center cursor-pointer'>
             {/* likes and comments */}
-            <AiFillLike className='h-6 w-6 text-blue-800' onClick={handleLike} />
-            <p> <span>{like} </span>Likes</p>
+            <AiFillLike className='h-6 w-6 text-blue-800' />
+            <p> <span>{post.likes} </span>Likes</p>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
             {/* comments */}
             <FaRegComment className='h-6 w-6' />
-            <p> <span className='text-teal-800'>7 </span> Comment</p>
+            <p> <span className='text-teal-800'>{post.comments.length} </span> Comment</p>
           </div>
         </div>
       </div>
