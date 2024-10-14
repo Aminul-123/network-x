@@ -3,7 +3,10 @@ import { FaUserFriends } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdEventNote } from "react-icons/md";
+import { useSelector } from "react-redux";
 function LeftSideBar() {
+  const name = useSelector((state) => state?.post?.username)
+ // console.log(name);
   return (
     <>
       <section className="lg:h-[70%] max-h-[80%] w-full lg:w-[24%] lg:fixed left-0 top-24 mt-16
@@ -20,7 +23,9 @@ function LeftSideBar() {
               alt="profile image"
               className="lg:h-20 lg:w-20 h-32 w-32 rounded-full"
             />
-            <h2 className="font-bold text-[1.2rem]">Aminul Ali</h2>
+            <h2 className="font-bold text-[1.2rem]">
+              {name}
+            </h2>
           </div>
         </div>
         <hr className="text-gray-600" />

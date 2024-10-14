@@ -2,6 +2,7 @@ import {createSlice} from '@reduxjs/toolkit'
 const initialState = {
     description : '',
     image : {},
+    username : ''
 }
 
  
@@ -21,9 +22,12 @@ const postSlice = createSlice( {
                 state.description = action.payload.desc;
                 state.image = action.payload.img;
             }
+        },
+        user(state, action) {
+            state.username = action.payload;
         }
     }
 })
 
-export const {addPost} = postSlice.actions;
+export const {addPost, user} = postSlice.actions;
 export default postSlice.reducer;

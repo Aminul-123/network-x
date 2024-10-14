@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import AddPost from './AddPost'
 import Post from './Post'
+import AllPost from './AllPost';
 
 function Feed() {
   const [text, setText] = useState('');
@@ -10,10 +11,7 @@ function Feed() {
     flex flex-col '>
       {/* tomorrow will be working on addpost option  */}
          <AddPost text={text} setText={setText} />
-         <Post/>
-         <Post/>
-         <Post/>
-         <Post/>
+        <AllPost />
     </div>
    
     </>

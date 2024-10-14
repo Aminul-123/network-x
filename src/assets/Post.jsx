@@ -1,19 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
 import { CiSettings } from "react-icons/ci";
 import { AiFillLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
 import { useSelector } from 'react-redux';
-function Post() {
+function Post({post}) {
   const [like , setLike ] = useState(10)
   const desc = useSelector((state) => state?.post?.description)
   const image = useSelector((state) => state?.post?.image)
 
-  console.log(desc, image)
+  //console.log(desc, image)
   const [isFollowing, setIsFollowing] = useState(false)
+
   function handleLike () {
     setLike((like) => like + 1);
   }
+
+ 
   return (
     <>
     <main className=' mt-4 mb-4 bg-white p-3 border border-gray-300 shadow-lg rounded-md'>
@@ -28,8 +31,8 @@ function Post() {
             </div>
             <div className='leading-5'>
               <div className='flex gap-2'>
-              <h1>Aminul Ali</h1>
-              <span className='text-gray-600'> 3d ago</span>
+              <h1>{post.name}</h1>
+              <span className='text-gray-600'>{post.date_created}</span>
               </div>
              
               <p className='text-gray-600'>Frontend developer</p>
@@ -53,11 +56,11 @@ function Post() {
         {/* text paragraph post */}
         <div className='pb-3 pt-2'>
           <p>
-          An image is a visual representation. An image can be two-dimensional, such as a drawing, painting, or photograph, or three-dimensional, such as a carving or sculpture.
+        {post.description}
           </p>
         </div>
         <div>
-          <img src="https://h5p.org/sites/default/files/h5p/content/1209180/images/file-6113d5f8845dc.jpeg" alt="posted image" className='w-full' />
+          <img src={post.imageUrl} alt="posted image" className='fill mx-28 h-80 w-80' />
         </div>
         <hr />
         <div className='mt-3 mb-3 flex items-center justify-between border border-t-gray-300'>
