@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
 import { CiSettings } from "react-icons/ci";
 import { AiFillLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
+import { useSelector } from 'react-redux';
 function Post() {
+  const [like , setLike ] = useState(10)
+  const desc = useSelector((state) => state?.post?.description)
+  const image = useSelector((state) => state?.post?.image)
+
+  console.log(desc, image)
+  const [isFollowing, setIsFollowing] = useState(false)
+  function handleLike () {
+    setLike((like) => like + 1);
+  }
   return (
     <>
     <main className=' mt-4 mb-4 bg-white p-3 border border-gray-300 shadow-lg rounded-md'>
@@ -28,10 +38,13 @@ function Post() {
           <div className='flex flex-col items-end' >
             {/* setting btn , follow and unfollow */}
             <CiSettings className='h-6 w-6' />
-            <div className='flex gap-2 h-8 w-24 p-2 items-center cursor-pointer text-blue-600 
-             hover:bg-gray-100 rounded-full'>
+            <div className='flex gap-2 h-8 w-38 p-2 items-center cursor-pointer text-blue-600 
+             hover:bg-blue-400 hover:text-white rounded-full' 
+             onClick={() => setIsFollowing((t) => !t)}>
                <FaPlus  />
-                <button className='text-[1.2rem]'>Follow</button>
+                <button className='text-[1.2rem]'>
+                  {isFollowing ? 'Following' : 'Follow'}
+                </button>
             </div>
           </div>
         </div>
@@ -51,13 +64,13 @@ function Post() {
           {/* like comment functionality */}
           <div className='flex items-center cursor-pointer'>
             {/* likes and comments */}
-            <AiFillLike className='h-6 w-6 text-blue-800' />
-            <p> <span>12 </span>Likes</p>
+            <AiFillLike className='h-6 w-6 text-blue-800' onClick={handleLike} />
+            <p> <span>{like} </span>Likes</p>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
             {/* comments */}
             <FaRegComment className='h-6 w-6' />
-            <p> <span>7 </span> Comment</p>
+            <p> <span className='text-teal-800'>7 </span> Comment</p>
           </div>
         </div>
       </div>

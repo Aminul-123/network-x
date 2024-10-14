@@ -1,0 +1,42 @@
+
+ {
+   "post" : [
+
+      {
+         "name" : "jonas",
+         "date_created" : "3d ago",
+         "heading" : "old man standing",
+         "description" : "view is awesome",
+         "imageUrl" : "images/_dd428a5b-b80d-4777-85f0-2dd206804b27.jpg",
+         "likes" : 12,
+         "comments" : [
+            {
+               "c_name" : "Andrew",
+               "comment" : "wow"
+            },
+            {
+               "c_name" : "heydor",
+               "comment" : "good"
+            }           
+         ]
+         
+      },
+
+      {
+         "name" : "Rajat",
+         "date_created" : "1y ago",
+         "heading" : "Future technology -Robot",
+         "description" : "robot is our future tech, ",
+         "imageUrl" : "images/_c914a89c-d72a-485c-a3dd-d6bb83d51226.jpg",
+         "likes" : 19,
+         "comments" : [
+            {
+               "c_name" : "max",
+               "comment" : "Good"
+            }          
+           
+         ]
+         
+      }
+   ]
+ }

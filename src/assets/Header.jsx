@@ -1,7 +1,7 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoHomeOutline } from "react-icons/io5";
-import { SiNintendonetwork } from "react-icons/si";
+// import { SiNintendonetwork } from "react-icons/si";
 import { FaUpwork } from "react-icons/fa6";
 import { AiOutlineMessage } from "react-icons/ai";
 import { IoNotificationsOutline } from "react-icons/io5";
@@ -42,7 +42,8 @@ function Header() {
                     <h5>Home</h5>
               </Link>
               <div className="flex flex-col items-center">
-                   <SiNintendonetwork className=" md:h-6 md:w-6" />
+                   {/* <SiNintendonetwork className=" md:h-6 md:w-6" /> */}
+                   <span>🔍</span>
                    <h5>Network</h5>
               </div>
               <div className="flex flex-col items-center">
