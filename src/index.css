@@ -18,3 +18,8 @@ html {
   font-size: 100%;
   vertical-align: baseline;
 }
+@layer components {
+  .list-style {
+    @apply font-semibold cursor-pointer
+  }
+}

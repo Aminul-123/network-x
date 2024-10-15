@@ -14,12 +14,15 @@ function AllPost() {
            setPost(post);
         }
         fetchPost()
-      }, []);
+      }, [post]);
+
+    
+
   return (
     <div>
         {
             post.map((post) => (
-                <Post post={post} key={post.id} />
+                <Post post={post} key={post.id}  />
             ))
         }
     </div>

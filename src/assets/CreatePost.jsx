@@ -1,31 +1,65 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdCancelPresentation } from "react-icons/md";
 import { RiYoutubeLine } from "react-icons/ri";
 import { MdOutlinePermMedia } from "react-icons/md";
-import { useDispatch } from 'react-redux';
-import { addPost } from '../slices/postSlice';
+import { useDispatch, useSelector } from 'react-redux';
+// import { addPost } from '../slices/postSlice';
+import { createPost } from '../services/getPostData';
 
-function CreatePost({  editorText,
-    setEditorText,
-    shareImage,
-    setShareImage,
-    videoLink,
-    setVideoLink,
-    assetArea,
-    setAssetArea,
-    handleChange,
-    switchAssetArea,
-    handleClick,
-    reset,
-    setShowModal }) {
-      const dispatch = useDispatch();
+function CreatePost({setShowModal}) {
+      const [editorText, setEditorText] = useState("");
+      const [shareImage, setShareImage] = useState("");
+      const [videoLink, setVideoLink] = useState("");
+      const [assetArea, setAssetArea] = useState("");
+      const [heading, setHeading] = useState('');
 
-      function handleCreatePost  () {
-        dispatch(addPost(editorText, shareImage));
+
+      // const dispatch = useDispatch();
+      const username = useSelector((state) => state?.post?.username)
+
+     function handleCreatePost (e) {
+        e.preventDefault();
+        console.log(e)
+
+        if (!heading) {
+          alert('heading must not be empty');
+          return;
+        } ;
+       // dispatch(addPost(editorText, shareImage));
+        const newPost = {
+          id : crypto.randomUUID(),
+          name : username || 'Aminul',
+          date_created : new Date().toDateString(),
+          heading : heading,
+          description : editorText,
+          imageUrl : shareImage,
+          likes : 0,
+          comments: [] 
+        }
+        console.log(newPost);
+       createPost(newPost)
+        setShowModal(false)
+        
       }
+  
+      
+      const switchAssetArea = (area) => {
+        setShareImage("");
+        setVideoLink("");
+        setAssetArea(area);
+      };
+      
+  // const handleChange = (e) => {
+  //   const image = e.target.files[0];
+  //   if (image === "" || image === undefined) {
+  //     alert(`not an image , the file is ${typeof image}`);
+  //     return;
+  //   }
+  //   setShareImage(image);
+  // };
   return (
     <div>
-        <section className="fixed left-0  w-full top-0 ml-4 lg:left-[27%] lg:w-[35rem] right-0 bottom-0 z-50">
+        <form className="fixed left-0  w-full top-0 ml-4 lg:left-[27%] lg:w-[35rem] right-0 bottom-0 z-50"  onSubmit={ handleCreatePost}>
           <div
             className="w-[100%]  bg-white  border border-gray-400 p-3 rounded flex flex-col relative
          top-8"
@@ -43,12 +77,22 @@ function CreatePost({  editorText,
                 alt="profile img"
                 className="md:h-12 md:w-12 w-9 h-9  rounded-full"
               />
-              <h1 className="font-bold">Aminul Ali</h1>
+              <h1 className="font-bold">{username}</h1>
             </div>
 
             {/* image and video text area */}
             <div>
               <div>
+                <div className='flex gap-4 items-center'>
+                  <label htmlFor="heading">Heading</label>
+                  <input type="text" 
+                  id='heading' 
+                  placeholder='heading' 
+                  className='w-full p-2'
+                  value={heading}
+                  onChange={(e) => setHeading(e.target.value)}
+                  />
+                </div>
                 <textarea
                   name="text"
                   id="text"
@@ -68,7 +112,8 @@ function CreatePost({  editorText,
                       name="image"
                       id="file"
                       className="mt-2 mb-3 hidden"
-                      onChange={handleChange}
+                    //  onChange={handleChange}
+                      disabled
                     />
                     <p className="text-center mb-3">
                       <label
@@ -77,16 +122,21 @@ function CreatePost({  editorText,
                       >
                         Select an image to share
                       </label>
+                      <span>OR</span>
+                      <input type="text" placeholder='Paste image url' className='p-2 w-[80%] mt-2'
+                      value={shareImage}
+                      onChange={(e) => setShareImage(e.target.value)} />
                     </p>
-                    {shareImage && (
+                    {/* {shareImage && (
                       <div className="flex justify-center">
                         <img
                           src={URL.createObjectURL(shareImage)}
                           alt="image"
                           className="h-40 w-[60%] m-2 "
                         />
+                       
                       </div>
-                    )}
+                    )} */}
                   </>
                 )}
                 {assetArea === "media" && (
@@ -114,12 +164,12 @@ function CreatePost({  editorText,
               </div>
             </div>
 
-            {/* below section */}
+            {/* below form */}
             <div className="flex justify-between ">
               <div className="flex gap-2">
                 <div
                   className="flex gap-1 cursor-pointer"
-                  onClick={() => switchAssetArea("image")}
+                   onClick={() => switchAssetArea("image")}
                 >
                   {/* icon and text */}
 
@@ -128,7 +178,7 @@ function CreatePost({  editorText,
                 </div>
                 <div
                   className="flex gap-1 cursor-pointer"
-                  onClick={() => switchAssetArea("media")}
+                  // onClick={() => switchAssetArea("media")}
                 >
                   <RiYoutubeLine className="h-6 w-6 text-orange-600" />
                   <h1>Video</h1>
@@ -138,14 +188,15 @@ function CreatePost({  editorText,
                 {/* Post button */}
                 <button
                   className={`h-8 w-16 bg-blue-500 text-white text-[1.1rem] rounded-full  `}
-                  onClick={() => handleCreatePost ()}
+                  
+                 
                 >
                   Post
                 </button>
               </div>
             </div>
           </div>
-        </section>
+        </form>
     
     </div>
   )

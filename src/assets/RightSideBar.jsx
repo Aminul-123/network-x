@@ -5,7 +5,7 @@ function RightSideBar() {
 <>
 <section className="max-h-[60%] w-[24%] p-3 hidden lg:block fixed right-4 top-24 ml-4 border border-gray-300 shadow-lg rounded-md">
     <article>
-      <h1 className='font-bold text-[1.4rem] '>Linkedin News</h1>
+      <h1 className='font-bold text-[1.4rem] '>Network X News</h1>
 
       <div>
           <h2 className='text-[1.3rem] text-gray-600'>Top Stories</h2>

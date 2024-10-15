@@ -3,11 +3,13 @@ import { FaPlus } from "react-icons/fa6";
 import { CiSettings } from "react-icons/ci";
 import { AiFillLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
+import Setting from './Setting';
 function Post({post}) {
+  const [openPostSetting , setOpenPostSetting] = useState(false)
 
   //console.log(desc, image)
   const [isFollowing, setIsFollowing] = useState(false)
-
+// console.log(new Date().toDateString());
  
   return (
     <>
@@ -23,7 +25,7 @@ function Post({post}) {
             </div>
             <div className='leading-5'>
               <div className='flex gap-2'>
-              <h1>{post.name}</h1>
+              <h1 className='font-semibold'>{post.name}</h1>
               <span className='text-gray-600'>{post.date_created}</span>
               </div>
              
@@ -32,7 +34,15 @@ function Post({post}) {
           </div>
           <div className='flex flex-col items-end' >
             {/* setting btn , follow and unfollow */}
-            <CiSettings className='h-6 w-6' />
+            <CiSettings className='h-6 w-6 cursor-pointer' onClick={() => setOpenPostSetting((t) => !t)}  />
+
+              {
+                openPostSetting && (
+                  <Setting />
+                )
+              }
+
+
             <div className='flex gap-2 h-8 w-38 p-2 items-center cursor-pointer text-blue-600 
              hover:bg-blue-400 hover:text-white rounded-full' 
              onClick={() => setIsFollowing((t) => !t)}>
@@ -47,6 +57,7 @@ function Post({post}) {
 <hr />
         {/* text paragraph post */}
         <div className='pb-3 pt-2'>
+          <p className='font-semibold text-[23px] '>{post.heading}</p>
           <p>
         {post.description}
           </p>

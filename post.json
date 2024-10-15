@@ -1,54 +1,70 @@
-
- {
-   "post" : [
-
-      {
-         "id" : 123,
-         "name" : "jonas",
-         "date_created" : "3d ago",
-         "heading" : "old man standing",
-         "description" : "view is awesome",
-         "imageUrl" : "images/_dd428a5b-b80d-4777-85f0-2dd206804b27.jpg",
-         "likes" : 12,
-         "comments" : [
-            {
-               "c_name" : "Andrew",
-               "comment" : "wow"
-            },
-            {
-               "c_name" : "heydor",
-               "comment" : "good"
-            }           
-         ]
-         
-      },
-
-      {
-         "id" : 37468,
-         "name" : "Rajat",
-         "date_created" : "1y ago",
-         "heading" : "Future technology -Robot",
-         "description" : "robot is our future tech, ",
-         "imageUrl" : "images/_c914a89c-d72a-485c-a3dd-d6bb83d51226.jpg",
-         "likes" : 19,
-         "comments" : [
-            {
-               "c_name" : "max",
-               "comment" : "Good"
-            }          
-           
-         ]
-         
-      }
-   ],
-   "jobs" : [
-      {
-         "title" : "xyz",
-         "desc" : "lorem"
-      },
-      {
-         "title" : "djflkja;l",
-         "desc" : "djflksa"
-      }
-   ]
- }
+{
+  "post": [
+    {
+      "id": "123",
+      "name": "jonas",
+      "date_created": "3d ago",
+      "heading": "old man standing",
+      "description": "view is awesome",
+      "imageUrl": "images/_dd428a5b-b80d-4777-85f0-2dd206804b27.jpg",
+      "likes": 12,
+      "comments": [
+        {
+          "c_name": "Andrew",
+          "comment": "wow"
+        },
+        {
+          "c_name": "heydor",
+          "comment": "good"
+        }
+      ]
+    },
+    {
+      "id": "37468",
+      "name": "Rajat",
+      "date_created": "1y ago",
+      "heading": "Future technology -Robot",
+      "description": "robot is our future tech, ",
+      "imageUrl": "images/_c914a89c-d72a-485c-a3dd-d6bb83d51226.jpg",
+      "likes": 12,
+      "comments": [
+        {
+          "c_name": "Andrew huberman",
+          "comment": "wow"
+        }
+      ]
+    },
+    {
+      "id": "e080ffa8-5e0b-4520-a27b-707cb88fbd31",
+      "name": "jonas",
+      "date_created": "Tue Oct 15 2024",
+      "heading": "heading 1",
+      "description": "text of heading 1",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROsr3T9x0DS-sZ2_UcohTatqiDZEpYcefksg&s",
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "id": "b5f5aa0f-3478-4218-a218-1ed3a0aa4730",
+      "name": "jonas",
+      "date_created": "Tue Oct 15 2024",
+      "heading": "heading 2",
+      "description": "text of heading 2",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROsr3T9x0DS-sZ2_UcohTatqiDZEpYcefksg&s",
+      "likes": 0,
+      "comments": []
+    }
+  ],
+  "jobs": [
+    {
+      "title": "xyz",
+      "desc": "lorem",
+      "id": "38cf"
+    },
+    {
+      "title": "djflkja;l",
+      "desc": "djflksa",
+      "id": "1c90"
+    }
+  ]
+}

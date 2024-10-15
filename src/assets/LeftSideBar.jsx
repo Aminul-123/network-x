@@ -24,7 +24,7 @@ function LeftSideBar() {
               className="lg:h-20 lg:w-20 h-32 w-32 rounded-full"
             />
             <h2 className="font-bold text-[1.2rem]">
-              {name}
+              {name || 'Aminul'}
             </h2>
           </div>
         </div>

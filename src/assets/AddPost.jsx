@@ -7,54 +7,9 @@ import { PiArticleNyTimesDuotone } from "react-icons/pi";
 import CreatePost from "./CreatePost";
 
 function AddPost({ text, setText }) {
-  const [editorText, setEditorText] = useState("");
   const [showModal, setShowModal] = useState(false);
-  const [shareImage, setShareImage] = useState("");
-  const [videoLink, setVideoLink] = useState("");
-  const [assetArea, setAssetArea] = useState("");
 
-  const handleChange = (e) => {
-    const image = e.target.files[0];
-    if (image === "" || image === undefined) {
-      alert(`not an image , the file is ${typeof image}`);
-      return;
-    }
-    setShareImage(image);
-  };
-  const switchAssetArea = (area) => {
-    setShareImage("");
-    setVideoLink("");
-    setAssetArea(area);
-  };
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    if (e.target != e.currentTarget) {
-      return;
-    }
-    switch (showModal) {
-      case "open": {
-        setShowModal("close");
-        break;
-      }
-      case "close": {
-        setShowModal("open");
-        break;
-      }
-      default: {
-        setShowModal("close");
-        break;
-      }
-    }
-  };
-
-  const reset = (e) => {
-    setEditorText("");
-    setShareImage("");
-    setVideoLink("");
-    setAssetArea("");
-    handleClick(e);
-  };
 
   return (
     <>
@@ -104,19 +59,9 @@ function AddPost({ text, setText }) {
 
           {
             showModal && <CreatePost
-                                     editorText={editorText}
-                                     setEditorText={setEditorText}
-                                     shareImage={shareImage}
-                                     setShareImage={setShareImage}
-                                     videoLink={videoLink}
-                                     setVideoLink={setVideoLink}
-                                     assetArea={assetArea}
-                                     setAssetArea={setAssetArea}
-                                     handleChange={handleChange}
-                                     switchAssetArea={switchAssetArea}
-                                     handleClick={handleClick}
-                                     reset={reset}
-                                     setShowModal={setShowModal}   />
+                                  
+                                      setShowModal={setShowModal} 
+                                      />
           }
      
     </>

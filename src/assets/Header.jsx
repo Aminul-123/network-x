@@ -14,7 +14,7 @@ function Header() {
         <nav className="flex justify-between">
           <div className="flex items-center  ">
             <img
-              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+              src="images/logo.jpg"
               alt="header-image"
               className="h-12 w-12 mr-5"
             />
