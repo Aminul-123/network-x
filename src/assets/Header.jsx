@@ -6,7 +6,10 @@ import { FaUpwork } from "react-icons/fa6";
 import { AiOutlineMessage } from "react-icons/ai";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 function Header() {
+  const profileImg = useSelector((state) => state?.post?.userImg);
+
   return (
     <>
       {/*  working on header component === done */}
@@ -60,7 +63,8 @@ function Header() {
               </div>
               <div className="flex flex-col items-center ">
                 {/* profile img */}
-                <img src="https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg" alt="profile img" className="md:h-12 md:w-12 w-9 h-9  rounded-full" />
+                <img src={profileImg}
+                alt="profile img" className="md:h-12 md:w-12 w-9 h-9  rounded-full" />
                 
               </div>
             </div>

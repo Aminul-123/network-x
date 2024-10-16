@@ -16,6 +16,8 @@ function CreatePost({setShowModal}) {
 
       // const dispatch = useDispatch();
       const username = useSelector((state) => state?.post?.username)
+      const profileImg = useSelector((state) => state?.post?.userImg);
+
 
      function handleCreatePost (e) {
         e.preventDefault();
@@ -73,7 +75,7 @@ function CreatePost({setShowModal}) {
             </div>
             <div className="flex items-center gap-3 ">
               <img
-                src="https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg"
+                src={profileImg}
                 alt="profile img"
                 className="md:h-12 md:w-12 w-9 h-9  rounded-full"
               />

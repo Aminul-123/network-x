@@ -1,29 +1,31 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Post from './Post';
-import { getPost } from '../services/getPostData';
+import { usePosts } from './usePosts';
 
 function AllPost() {
-    const [post, setPost] = useState([]);
-
-    useEffect(function () {
-        async function fetchPost () {
-        //     const res = await fetch(`http://localhost:8000/post`);
-        //     const data = await res.json();
-        //   //  console.log(data)
-        const post = await getPost()
-           setPost(post);
-        }
-        fetchPost()
-      }, [post]);
-
+  const {post, savedPost, showSavedItem} = usePosts()
     
-
+    // here Post is reusable components for both SavedPost and Added Post.
   return (
     <div>
         {
+            showSavedItem ? (
+               <>
+               {
+                savedPost.map((post) => (
+                    <Post post={post}  key={post.id}/>
+                ))
+               }
+               </>
+            ) :
+            <>
+            {
+
             post.map((post) => (
                 <Post post={post} key={post.id}  />
             ))
+          }
+        </>
         }
     </div>
   )

@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUserFriends } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdEventNote } from "react-icons/md";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { showSavedItem } from "../slices/postSlice";
+import ProfileUpdate from "./ProfileUpdate";
 function LeftSideBar() {
+  const [showUpdateModal, setShowUpdateModal] = useState(false);
   const name = useSelector((state) => state?.post?.username)
+  const userImg = useSelector((state) => state?.post?.userImg)
+  
+  const dispatch = useDispatch();
+  function handleSaveItem () {
+    dispatch(showSavedItem());
+  }
+
+ 
  // console.log(name);
   return (
     <>
@@ -19,13 +30,21 @@ function LeftSideBar() {
           />
           <div className="relative left-16 bottom-16  lg:bottom-8">
             <img
-              src="https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg"
+              src={userImg}
               alt="profile image"
               className="lg:h-20 lg:w-20 h-32 w-32 rounded-full"
             />
             <h2 className="font-bold text-[1.2rem]">
               {name || 'Aminul'}
+              <span className="p-1 border border-gray-300 ml-2 cursor-pointer"
+            onClick={() => setShowUpdateModal((t) => !t)}
+              >🖋</span>
             </h2>
+            {
+              showUpdateModal && (
+                <ProfileUpdate setShowUpdateModal={setShowUpdateModal} />
+              )
+            }
           </div>
         </div>
         <hr className="text-gray-600" />
@@ -40,9 +59,11 @@ function LeftSideBar() {
         </div>
         <hr />
 
-        <div className="flex px-3 items-center  justify-start gap-2 h-10 w-full ">
+        <div className="flex px-3 items-center  justify-start gap-2 h-10 w-full "
+        onClick={handleSaveItem}
+        >
           <CiBookmark className="h-6 w-6 mt-2 cursor-pointer  " />
-          <p>My Items</p>
+          <p className="cursor-pointer">My Items</p>
         </div>
 
         <div className="flex px-3 items-center  justify-start gap-2 h-10 w-full ">

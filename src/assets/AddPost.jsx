@@ -5,9 +5,11 @@ import { BsCalendar3Event } from "react-icons/bs";
 import { PiArticleNyTimesDuotone } from "react-icons/pi";
 
 import CreatePost from "./CreatePost";
+import { useSelector } from "react-redux";
 
 function AddPost({ text, setText }) {
   const [showModal, setShowModal] = useState(false);
+  const profileImg = useSelector((state) => state?.post?.userImg);
 
 
 
@@ -16,7 +18,7 @@ function AddPost({ text, setText }) {
       <section className="bg-white border border-gray-300 shadow-lg rounded-md">
         <div className="flex pl-2 gap-3 items-center mt-2 mb-2">
           <img
-            src="https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg"
+            src={profileImg}
             alt="profile img"
             className="md:h-12 md:w-12 w-9 h-9  rounded-full"
           />

@@ -9,9 +9,10 @@ import { createSlice} from '@reduxjs/toolkit'
 // })
 
 const initialState = {
-    description : '',
-    image : {},
-    username : ''
+    userImg : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMEX27vXd200_A8a9VpCPBUlxfDf4BW6Wq-w&s',
+    username : '',
+    savedPost : [],
+    showSavedPost : false,
 }
 
  
@@ -19,24 +20,35 @@ const postSlice = createSlice( {
     name : 'post',
     initialState : initialState,
     reducers : {
-        addPost : {
-            prepare(desc, img) {
+        updateProfile : {
+            //not this
+            prepare(name, img) {
                 return {             
-                    payload : {desc, img}
+                    payload : {name, img}
                 }
             },
             reducer (state, action) {
-
-                
-                state.description = action.payload.desc;
-                state.image = action.payload.img;
+              state.userImg = action.payload.img;
+              state.username = action.payload.name;
             }
         },
         user(state, action) {
             state.username = action.payload;
-        }
+        },
+        savePost(state, action) {
+            // payload will be object containing post details
+            state.savedPost.push(action.payload);
+        },
+        showSavedItem (state) {
+            state.showSavedPost = !state.showSavedPost;
+        },
+        removePost (state, action) {
+            // payload will be the id of item which we want to remove from saved List
+         state.savedPost =   state.savedPost.filter((item) => item.id !== action.payload);
+        },
+        
     }
 })
 
-export const {addPost, user} = postSlice.actions;
+export const {updateProfile, user, savePost, showSavedItem, removePost} = postSlice.actions;
 export default postSlice.reducer;

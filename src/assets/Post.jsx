@@ -4,8 +4,11 @@ import { CiSettings } from "react-icons/ci";
 import { AiFillLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
 import Setting from './Setting';
+import { useSelector } from 'react-redux';
 function Post({post}) {
-  const [openPostSetting , setOpenPostSetting] = useState(false)
+  const [openPostSetting , setOpenPostSetting] = useState(false);
+  const {name, date_created, imageUrl , id, comments, likes, heading, description} =post;
+  const userImg = useSelector((state) => state?.post?.userImg)
 
   //console.log(desc, image)
   const [isFollowing, setIsFollowing] = useState(false)
@@ -20,13 +23,13 @@ function Post({post}) {
           <div className='flex gap-2 '>
             {/* profile img , person name */}
             <div>
-                 <img src="https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg" alt="profile img" className=" w-11 h-11  rounded-full" />
+                 <img src={userImg} alt="profile img" className=" w-11 h-11  rounded-full" />
 
             </div>
             <div className='leading-5'>
               <div className='flex gap-2'>
-              <h1 className='font-semibold'>{post.name}</h1>
-              <span className='text-gray-600'>{post.date_created}</span>
+              <h1 className='font-semibold'>{name}</h1>
+              <span className='text-gray-600'>{date_created}</span>
               </div>
              
               <p className='text-gray-600'>Frontend developer</p>
@@ -38,7 +41,7 @@ function Post({post}) {
 
               {
                 openPostSetting && (
-                  <Setting />
+                  <Setting post={post} />
                 )
               }
 
@@ -57,13 +60,13 @@ function Post({post}) {
 <hr />
         {/* text paragraph post */}
         <div className='pb-3 pt-2'>
-          <p className='font-semibold text-[23px] '>{post.heading}</p>
+          <p className='font-semibold text-[23px] '>{heading}</p>
           <p>
-        {post.description}
+        {description}
           </p>
         </div>
         <div>
-          <img src={post.imageUrl} alt="posted image" className='fill mx-28 h-80 w-80' />
+          <img src={imageUrl} alt="posted image" className='fill mx-28 h-80 w-80' />
         </div>
         <hr />
         <div className='mt-3 mb-3 flex items-center justify-between border border-t-gray-300'>
@@ -71,7 +74,7 @@ function Post({post}) {
           <div className='flex items-center cursor-pointer'>
             {/* likes and comments */}
             <AiFillLike className='h-6 w-6 text-blue-800' />
-            <p> <span>{post.likes} </span>Likes</p>
+            <p> <span>{likes} </span>Likes</p>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
             {/* comments */}

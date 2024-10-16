@@ -1,4 +1,3 @@
-import { json } from "react-router-dom";
 
 const BASE_URL = 'http://localhost:8000';
 export async function getPost () {
@@ -29,6 +28,17 @@ export async function createPost (newPost) {
     }
     catch(error) {
         console.log(error)
+    }
+}
+export async function deletePost (id) {
+    try {
+      const res = await fetch(`${BASE_URL}/post/${id}`, {
+            method : 'DELETE'
+        })
+    if (!res.ok) throw new Error ('There is an error in deleting post');
+    }
+    catch (err) {
+        console.log(err)
     }
 }
 
