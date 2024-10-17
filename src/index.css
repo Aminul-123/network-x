@@ -22,4 +22,11 @@ html {
   .list-style {
     @apply font-semibold cursor-pointer
   }
+  .main-feed {
+    @apply h-full mt-4 lg:mt-0 w-full lg:absolute top-24 left-[27%] lg:w-[45%] ml-4 pr-4 mb-16
+    flex flex-col 
+  }
+  .detail-page {
+    @apply h-auto mt-4 lg:mt-0 w-full lg:relative top-24 left-[27%] lg:w-[70%] ml-4 pr-4 mb-1 bg-slate-100 flex flex-col p-3 
+  }
 }

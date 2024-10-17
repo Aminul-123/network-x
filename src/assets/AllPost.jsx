@@ -8,25 +8,13 @@ function AllPost() {
     // here Post is reusable components for both SavedPost and Added Post.
   return (
     <div>
-        {
-            showSavedItem ? (
-               <>
-               {
-                savedPost.map((post) => (
-                    <Post post={post}  key={post.id}/>
-                ))
-               }
-               </>
-            ) :
-            <>
+
             {
 
             post.map((post) => (
                 <Post post={post} key={post.id}  />
             ))
           }
-        </>
-        }
     </div>
   )
 }

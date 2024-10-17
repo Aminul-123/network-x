@@ -68,8 +68,170 @@
           "comment": "wow"
         }
       ]
+    },
+    {
+      "id": "5e3638c8-9cbd-4af7-b167-e37f0a215f1a",
+      "name": "jonas",
+      "date_created": "Thu Oct 17 2024",
+      "heading": "old man standing",
+      "description": "view is awesome",
+      "imageUrl": "images/_dd428a5b-b80d-4777-85f0-2dd206804b27.jpg",
+      "likes": 0,
+      "comments": 0
     }
   ],
+
+  
+    "friends": [
+      {
+        "id" : 48734,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Alice",
+        "role": "Software Engineer",
+        "experience": [
+          {
+            "position": "Junior Developer",
+            "companyName": "TechCorp",
+            "from": 2018,
+            "to": 2020
+          },
+          {
+            "position": "Full-Stack Developer",
+            "companyName": "InnovateX",
+            "from": 2020,
+            "to": 2023
+          }
+        ],
+        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 4338,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Alice",
+        "role": "Software Engineer",
+        "experience": [
+          {
+            "position": "Junior Developer",
+            "companyName": "TechCorp",
+            "from": 2018,
+            "to": 2020
+          },
+          {
+            "position": "Full-Stack Developer",
+            "companyName": "InnovateX",
+            "from": 2020,
+            "to": 2023
+          }
+        ],
+        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 68164,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Alice",
+        "role": "Software Engineer",
+        "experience": [
+          {
+            "position": "Junior Developer",
+            "companyName": "TechCorp",
+            "from": 2018,
+            "to": 2020
+          },
+          {
+            "position": "Full-Stack Developer",
+            "companyName": "InnovateX",
+            "from": 2020,
+            "to": 2023
+          }
+        ],
+        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 5478,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Alice",
+        "role": "Software Engineer",
+        "experience": [
+          {
+            "position": "Junior Developer",
+            "companyName": "TechCorp",
+            "from": 2018,
+            "to": 2020
+          },
+          {
+            "position": "Full-Stack Developer",
+            "companyName": "InnovateX",
+            "from": 2020,
+            "to": 2023
+          }
+        ],
+        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 475687,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Alice",
+        "role": "Software Engineer",
+        "experience": [
+          {
+            "position": "Junior Developer",
+            "companyName": "TechCorp",
+            "from": 2018,
+            "to": 2020
+          },
+          {
+            "position": "Full-Stack Developer",
+            "companyName": "InnovateX",
+            "from": 2020,
+            "to": 2023
+          }
+        ],
+        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 47887,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Bob",
+        "role": "Data Scientist",
+        "experience": [
+          {
+            "position": "Data Analyst",
+            "companyName": "AnalyticsFirm",
+            "from": 2015,
+            "to": 2018
+          },
+          {
+            "position": "Data Scientist",
+            "companyName": "AI Solutions",
+            "from": 2018,
+            "to":" present"
+          }
+        ],
+         "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+      },
+      {
+        "id" : 476,
+        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "name": "Charlie",
+        "role": "Product Manager",
+        "experience": [
+          {
+            "position": "Product Analyst",
+            "companyName": "SoftwareGiant",
+            "from": 2012,
+            "to": 2015
+          },
+          {
+            "position": "Product Manager",
+            "companyName": "StartupCompany",
+            "from": 2015,
+            "to": "present"
+          }
+        ],
+        "description": "Charlie is a seasoned product manager with a passion for building innovative and user-centric products. With over 10 years of experience in the tech industry, Charlie has a proven track record of leading successful product teams and delivering successful launches. In his current role at StartupCompany, Charlie is responsible for the overall product strategy and roadmap. He works closely with engineers, designers, and marketers to ensure that the product meets the needs of the target market and delivers value to customers. Charlie is known for his strong analytical skills, ability to think strategically, and excellent communication skills. He is a collaborative leader who builds strong relationships with his team and stakeholders. Charlie is also a mentor to junior product managers and is passionate about helping others succeed in their careers."
+      }
+     
+    ],
   "jobs": [
     {
       "title": "xyz",

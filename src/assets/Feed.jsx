@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import AddPost from './AddPost'
 import AllPost from './AllPost';
 import { useSelector } from 'react-redux';
-import GoBackBtn from './GoBackBtn';
 function Feed() {
   const [text, setText] = useState('');
   const showSavedItem = useSelector((state) => state?.post?.showSavedPost)
@@ -17,11 +16,7 @@ function Feed() {
         {!showSavedItem && 
              <AddPost text={text} setText={setText} />
         }
-        {
-          showSavedItem && (
-           <GoBackBtn />
-          )
-        }
+       
             <AllPost />
           </>
         

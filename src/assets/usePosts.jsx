@@ -4,23 +4,21 @@ import { useSelector } from "react-redux";
 
 export function usePosts () {
     const [post, setPost] = useState([]);
-    const savedPost = useSelector((state) => state?.post?.savedPost);
     const showSavedItem = useSelector((state) => state?.post?.showSavedPost)
 
 
     useEffect(function () {
         async function fetchPost () {
-        //     const res = await fetch(`http://localhost:8000/post`);
-        //     const data = await res.json();
-        //   //  console.log(data)
-        const post = await getPost()
-           setPost(post);
+             const post = await getPost()
+             setPost(post);
+             console.log(post)
         }
+        // infinite render prevented using post.length dependency
         fetchPost()
-      }, [post]);
+      }, [post.length]);
 
       return {
-        post, savedPost, showSavedItem
+        post
       }
 
 }

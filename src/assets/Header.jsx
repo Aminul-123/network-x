@@ -6,8 +6,11 @@ import { FaUpwork } from "react-icons/fa6";
 import { AiOutlineMessage } from "react-icons/ai";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { openNetworkPage } from "../slices/networkSlice";
 function Header() {
+
+  const dispatch = useDispatch();
   const profileImg = useSelector((state) => state?.post?.userImg);
 
   return (
@@ -44,15 +47,15 @@ function Header() {
                    <IoHomeOutline className="md:h-6 md:w-6 " />
                     <h5>Home</h5>
               </Link>
-              <div className="flex flex-col items-center">
+              <Link to={'/network'} className="flex flex-col items-center" >
                    {/* <SiNintendonetwork className=" md:h-6 md:w-6" /> */}
                    <span>🔍</span>
                    <h5>Network</h5>
-              </div>
-              <div className="flex flex-col items-center">
+              </Link>
+              <Link to={'/jobs'} className="flex flex-col items-center">
                    <FaUpwork className="md:h-6 md:w-6" />
                    <h5>Jobs</h5>
-              </div>
+              </Link>
               <div className="flex flex-col items-center">
                   <AiOutlineMessage className="md:h-6 md:w-6" />
                  <h5>Messaging</h5>

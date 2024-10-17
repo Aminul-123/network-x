@@ -6,15 +6,15 @@ import { MdEventNote } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { showSavedItem } from "../slices/postSlice";
 import ProfileUpdate from "./ProfileUpdate";
+// import { openNetworkPage } from "../slices/networkSlice";
+import { Link } from "react-router-dom";
 function LeftSideBar() {
   const [showUpdateModal, setShowUpdateModal] = useState(false);
   const name = useSelector((state) => state?.post?.username)
   const userImg = useSelector((state) => state?.post?.userImg)
   
   const dispatch = useDispatch();
-  function handleSaveItem () {
-    dispatch(showSavedItem());
-  }
+ 
 
  
  // console.log(name);
@@ -51,20 +51,20 @@ function LeftSideBar() {
         <div className="flex justify-between px-3 itmes-center mt-[-3rem] lg:mt-0 ">
           <div>
             <p>Connection</p>
-            <p className="font-bold">Grow your network</p>
+            <Link to={'/network'} className="font-bold cursor-pointer">Friends</Link>
           </div>
           <div className="mt-3 h-8 w-8 rounded-full hover:bg-gray-200 ">
-            <FaUserFriends className="h-6 w-6 cursor-pointer" />
+            <FaUserFriends className="h-6 w-6 cursor-pointer"  />
           </div>
         </div>
         <hr />
 
-        <div className="flex px-3 items-center  justify-start gap-2 h-10 w-full "
-        onClick={handleSaveItem}
+        <Link to="/saved-post" className="flex px-3 items-center  justify-start gap-2 h-10 w-full "
+
         >
           <CiBookmark className="h-6 w-6 mt-2 cursor-pointer  " />
           <p className="cursor-pointer">My Items</p>
-        </div>
+        </Link>
 
         <div className="flex px-3 items-center  justify-start gap-2 h-10 w-full ">
           <FaPeopleGroup className="h-6 w-6 mt-2 cursor-pointer  " />
