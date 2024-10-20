@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { getPost } from "../services/getPostData";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 export function usePosts () {
     const [post, setPost] = useState([]);
-    const showSavedItem = useSelector((state) => state?.post?.showSavedPost)
+    // const showSavedItem = useSelector((state) => state?.post?.showSavedPost)
 
 
     useEffect(function () {

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import AddPost from './AddPost'
 import AllPost from './AllPost';
 import { useSelector } from 'react-redux';
+import RightSideBar from './RightSideBar';
 function Feed() {
   const [text, setText] = useState('');
   const showSavedItem = useSelector((state) => state?.post?.showSavedPost)
@@ -22,6 +23,7 @@ function Feed() {
         
       }
     </div>
+        <RightSideBar />
    
     </>
   )

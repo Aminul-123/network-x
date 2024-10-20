@@ -1,5 +1,5 @@
 
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, createBrowserRouter, RouterProvider, redirect } from 'react-router-dom'
 import './App.css'
 import Login from './assets/Login'
 import Home from './assets/Home'
@@ -10,15 +10,46 @@ import SavedPost from './assets/SavedPost'
 import RightSideBar from './assets/RightSideBar'
 import FriendDetail from './assets/FriendDetail'
 import AllJobs from './assets/AllJobs'
+import Feed from './assets/Feed';
 
 function App() {
-  
+ 
 // modify below code and use more modern react router version.
 //   come back after november
+
+const router = createBrowserRouter([
+  {
+    path : '/',
+    element : <Home />,
+    children : [
+      { 
+        index : true,
+        path:'/home',
+
+        element : <Feed />,
+      },
+      {
+        path : '/network',
+        element : <AllFriends />,
+        // here we should omit right side bar,
+      },
+      {
+        path : '/network/detail/:id',
+        element : <FriendDetail />
+      },
+      {
+        path : 'saved-post',
+        element : <SavedPost />
+      }
+    ]
+
+  }
+])
   return (
     <>
+    <RouterProvider router={router} />
 
-    <Routes>
+    {/* <Routes>
       <Route path='/' element={
        <Login/>
       } />
@@ -54,7 +85,7 @@ function App() {
           <AllJobs />
          </>} />
 
-    </Routes>
+    </Routes> */}
     
     </>
   )
