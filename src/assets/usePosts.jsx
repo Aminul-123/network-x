@@ -11,7 +11,7 @@ export function usePosts () {
         async function fetchPost () {
              const post = await getPost()
              setPost(post);
-             console.log(post)
+           //  console.log(post)
         }
         // infinite render prevented using post.length dependency
         fetchPost()

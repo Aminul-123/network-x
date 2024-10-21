@@ -2,19 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { getAllFriends } from '../services/getFriendsData';
 import Friend from './Friend';
 import GoBackBtn from './GoBackBtn';
+import { useAllFriends } from './useAllFriends';
 
 function AllFriends() {
-    const [friend, setFriend] = useState([]);
-
-    useEffect(function () {
-        async function fetchFriendList () {
-            const list = await getAllFriends();
-            setFriend(list);
-            console.log(list)
-        }
-        //infinite render has been prevented using friend.length
-        fetchFriendList();
-    }, [friend.length])
+   const friend = useAllFriends();
 
 
   return (
@@ -23,7 +14,7 @@ function AllFriends() {
         <GoBackBtn />
         <p className='font-semibold'>NETWORK</p>
         </div>
-        <div className='grid grid-cols-4 gap-3 h-[100%] 
+        <div className='grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-3 h-[100%] 
         w-[100%]  '>
 
         {

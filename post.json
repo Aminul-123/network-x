@@ -85,8 +85,8 @@
     "friends": [
       {
         "id" : 48734,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Alice",
+        "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49631.jpg",
+        "name": "jonas",
         "role": "Software Engineer",
         "experience": [
           {
@@ -102,12 +102,12 @@
             "to": 2023
           }
         ],
-        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+        "description": "Jonas is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
       },
       {
         "id" : 4338,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Alice",
+        "profileImg": "https://img.freepik.com/premium-photo/handsome-young-man-looking-you-while-seated-chair-home_762026-62614.jpg",
+        "name": "Mike",
         "role": "Software Engineer",
         "experience": [
           {
@@ -127,9 +127,9 @@
       },
       {
         "id" : 68164,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Alice",
-        "role": "Software Engineer",
+        "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49630.jpg",
+        "name": "huxn",
+        "role": "IT SPECILIST",
         "experience": [
           {
             "position": "Junior Developer",
@@ -148,19 +148,19 @@
       },
       {
         "id" : 5478,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Alice",
-        "role": "Software Engineer",
+        "profileImg": "https://img.freepik.com/premium-photo/young-man-cap-portrait-closeup-plain-background-generative-ai_446633-203081.jpg",
+        "name": "Varun",
+        "role": "Game developer",
         "experience": [
           {
-            "position": "Junior Developer",
-            "companyName": "TechCorp",
+            "position": "Tester",
+            "companyName": "Tech Var",
             "from": 2018,
             "to": 2020
           },
           {
             "position": "Full-Stack Developer",
-            "companyName": "InnovateX",
+            "companyName": "Modern Dev",
             "from": 2020,
             "to": 2023
           }
@@ -169,8 +169,8 @@
       },
       {
         "id" : 475687,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Alice",
+        "profileImg": "https://img.freepik.com/premium-photo/portrait-fashion-man_787705-226.jpg",
+        "name": "Akash",
         "role": "Software Engineer",
         "experience": [
           {
@@ -190,7 +190,7 @@
       },
       {
         "id" : 47887,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+        "profileImg": "https://img.freepik.com/premium-photo/man-wearing-scarf-scarf-is-smiling-looking-camera_1124573-27473.jpg",
         "name": "Bob",
         "role": "Data Scientist",
         "experience": [

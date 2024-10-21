@@ -1,5 +1,5 @@
 
-import { Routes, Route, createBrowserRouter, RouterProvider, redirect } from 'react-router-dom'
+import { Routes, Route, createBrowserRouter, RouterProvider, redirect, Navigate } from 'react-router-dom'
 import './App.css'
 import Login from './assets/Login'
 import Home from './assets/Home'
@@ -24,8 +24,11 @@ const router = createBrowserRouter([
     children : [
       { 
         index : true,
+        element : <Navigate to={'/home'} replace />,
+        // when user navigate to / page , it will automatically navigate to /home page.
+      },
+      { 
         path:'/home',
-
         element : <Feed />,
       },
       {
