@@ -80,168 +80,590 @@
       "comments": 0
     }
   ],
-
-  
-    "friends": [
-      {
-        "id" : 48734,
-        "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49631.jpg",
-        "name": "jonas",
-        "role": "Software Engineer",
-        "experience": [
-          {
-            "position": "Junior Developer",
-            "companyName": "TechCorp",
-            "from": 2018,
-            "to": 2020
-          },
-          {
-            "position": "Full-Stack Developer",
-            "companyName": "InnovateX",
-            "from": 2020,
-            "to": 2023
-          }
-        ],
-        "description": "Jonas is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 4338,
-        "profileImg": "https://img.freepik.com/premium-photo/handsome-young-man-looking-you-while-seated-chair-home_762026-62614.jpg",
-        "name": "Mike",
-        "role": "Software Engineer",
-        "experience": [
-          {
-            "position": "Junior Developer",
-            "companyName": "TechCorp",
-            "from": 2018,
-            "to": 2020
-          },
-          {
-            "position": "Full-Stack Developer",
-            "companyName": "InnovateX",
-            "from": 2020,
-            "to": 2023
-          }
-        ],
-        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 68164,
-        "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49630.jpg",
-        "name": "huxn",
-        "role": "IT SPECILIST",
-        "experience": [
-          {
-            "position": "Junior Developer",
-            "companyName": "TechCorp",
-            "from": 2018,
-            "to": 2020
-          },
-          {
-            "position": "Full-Stack Developer",
-            "companyName": "InnovateX",
-            "from": 2020,
-            "to": 2023
-          }
-        ],
-        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 5478,
-        "profileImg": "https://img.freepik.com/premium-photo/young-man-cap-portrait-closeup-plain-background-generative-ai_446633-203081.jpg",
-        "name": "Varun",
-        "role": "Game developer",
-        "experience": [
-          {
-            "position": "Tester",
-            "companyName": "Tech Var",
-            "from": 2018,
-            "to": 2020
-          },
-          {
-            "position": "Full-Stack Developer",
-            "companyName": "Modern Dev",
-            "from": 2020,
-            "to": 2023
-          }
-        ],
-        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 475687,
-        "profileImg": "https://img.freepik.com/premium-photo/portrait-fashion-man_787705-226.jpg",
-        "name": "Akash",
-        "role": "Software Engineer",
-        "experience": [
-          {
-            "position": "Junior Developer",
-            "companyName": "TechCorp",
-            "from": 2018,
-            "to": 2020
-          },
-          {
-            "position": "Full-Stack Developer",
-            "companyName": "InnovateX",
-            "from": 2020,
-            "to": 2023
-          }
-        ],
-        "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 47887,
-        "profileImg": "https://img.freepik.com/premium-photo/man-wearing-scarf-scarf-is-smiling-looking-camera_1124573-27473.jpg",
-        "name": "Bob",
-        "role": "Data Scientist",
-        "experience": [
-          {
-            "position": "Data Analyst",
-            "companyName": "AnalyticsFirm",
-            "from": 2015,
-            "to": 2018
-          },
-          {
-            "position": "Data Scientist",
-            "companyName": "AI Solutions",
-            "from": 2018,
-            "to":" present"
-          }
-        ],
-         "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
-      },
-      {
-        "id" : 476,
-        "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
-        "name": "Charlie",
-        "role": "Product Manager",
-        "experience": [
-          {
-            "position": "Product Analyst",
-            "companyName": "SoftwareGiant",
-            "from": 2012,
-            "to": 2015
-          },
-          {
-            "position": "Product Manager",
-            "companyName": "StartupCompany",
-            "from": 2015,
-            "to": "present"
-          }
-        ],
-        "description": "Charlie is a seasoned product manager with a passion for building innovative and user-centric products. With over 10 years of experience in the tech industry, Charlie has a proven track record of leading successful product teams and delivering successful launches. In his current role at StartupCompany, Charlie is responsible for the overall product strategy and roadmap. He works closely with engineers, designers, and marketers to ensure that the product meets the needs of the target market and delivers value to customers. Charlie is known for his strong analytical skills, ability to think strategically, and excellent communication skills. He is a collaborative leader who builds strong relationships with his team and stakeholders. Charlie is also a mentor to junior product managers and is passionate about helping others succeed in their careers."
-      }
-     
-    ],
-  "jobs": [
+  "friends": [
     {
-      "title": "xyz",
-      "desc": "lorem",
-      "id": "38cf"
+      "id": 48734,
+      "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49631.jpg",
+      "name": "jonas",
+      "role": "Software Engineer",
+      "experience": [
+        {
+          "position": "Junior Developer",
+          "companyName": "TechCorp",
+          "from": 2018,
+          "to": 2020
+        },
+        {
+          "position": "Full-Stack Developer",
+          "companyName": "InnovateX",
+          "from": 2020,
+          "to": 2023
+        }
+      ],
+      "description": "Jonas is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
     },
     {
-      "title": "djflkja;l",
-      "desc": "djflksa",
-      "id": "1c90"
+      "id": 4338,
+      "profileImg": "https://img.freepik.com/premium-photo/handsome-young-man-looking-you-while-seated-chair-home_762026-62614.jpg",
+      "name": "Mike",
+      "role": "Software Engineer",
+      "experience": [
+        {
+          "position": "Junior Developer",
+          "companyName": "TechCorp",
+          "from": 2018,
+          "to": 2020
+        },
+        {
+          "position": "Full-Stack Developer",
+          "companyName": "InnovateX",
+          "from": 2020,
+          "to": 2023
+        }
+      ],
+      "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+    },
+    {
+      "id": 68164,
+      "profileImg": "https://img.freepik.com/premium-photo/shot-young-man-old-fashioned-clothing-standing-outdoors-created-with-generative-ai_762026-49630.jpg",
+      "name": "huxn",
+      "role": "IT SPECILIST",
+      "experience": [
+        {
+          "position": "Junior Developer",
+          "companyName": "TechCorp",
+          "from": 2018,
+          "to": 2020
+        },
+        {
+          "position": "Full-Stack Developer",
+          "companyName": "InnovateX",
+          "from": 2020,
+          "to": 2023
+        }
+      ],
+      "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+    },
+    {
+      "id": 5478,
+      "profileImg": "https://img.freepik.com/premium-photo/young-man-cap-portrait-closeup-plain-background-generative-ai_446633-203081.jpg",
+      "name": "Varun",
+      "role": "Game developer",
+      "experience": [
+        {
+          "position": "Tester",
+          "companyName": "Tech Var",
+          "from": 2018,
+          "to": 2020
+        },
+        {
+          "position": "Full-Stack Developer",
+          "companyName": "Modern Dev",
+          "from": 2020,
+          "to": 2023
+        }
+      ],
+      "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+    },
+    {
+      "id": 475687,
+      "profileImg": "https://img.freepik.com/premium-photo/portrait-fashion-man_787705-226.jpg",
+      "name": "Akash",
+      "role": "Software Engineer",
+      "experience": [
+        {
+          "position": "Junior Developer",
+          "companyName": "TechCorp",
+          "from": 2018,
+          "to": 2020
+        },
+        {
+          "position": "Full-Stack Developer",
+          "companyName": "InnovateX",
+          "from": 2020,
+          "to": 2023
+        }
+      ],
+      "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+    },
+    {
+      "id": 47887,
+      "profileImg": "https://img.freepik.com/premium-photo/man-wearing-scarf-scarf-is-smiling-looking-camera_1124573-27473.jpg",
+      "name": "Bob",
+      "role": "Data Scientist",
+      "experience": [
+        {
+          "position": "Data Analyst",
+          "companyName": "AnalyticsFirm",
+          "from": 2015,
+          "to": 2018
+        },
+        {
+          "position": "Data Scientist",
+          "companyName": "AI Solutions",
+          "from": 2018,
+          "to": " present"
+        }
+      ],
+      "description": "Alice is a passionate software engineer with 5 years of experience in building innovative web applications. She specializes in full-stack development, using technologies like React, Node.js, and Python. Alice has a strong track record of delivering high-quality projects and is always eager to learn new skills. In her previous role at InnovateX, she led a team of developers to create a groundbreaking e-commerce platform. Alice is known for her problem-solving abilities, attention to detail, and excellent communication skills. She is a team player who enjoys collaborating with others to achieve common goals. Alice is also actively involved in the tech community and participates in hackathons and meetups. She is committed to staying up-to-date with the latest trends and best practices in software development."
+    },
+    {
+      "id": 476,
+      "profileImg": "https://image.freepik.com/free-vector/young-woman-avatar-flat-vector-illustration_53876-1298.jpg",
+      "name": "Charlie",
+      "role": "Product Manager",
+      "experience": [
+        {
+          "position": "Product Analyst",
+          "companyName": "SoftwareGiant",
+          "from": 2012,
+          "to": 2015
+        },
+        {
+          "position": "Product Manager",
+          "companyName": "StartupCompany",
+          "from": 2015,
+          "to": "present"
+        }
+      ],
+      "description": "Charlie is a seasoned product manager with a passion for building innovative and user-centric products. With over 10 years of experience in the tech industry, Charlie has a proven track record of leading successful product teams and delivering successful launches. In his current role at StartupCompany, Charlie is responsible for the overall product strategy and roadmap. He works closely with engineers, designers, and marketers to ensure that the product meets the needs of the target market and delivers value to customers. Charlie is known for his strong analytical skills, ability to think strategically, and excellent communication skills. He is a collaborative leader who builds strong relationships with his team and stakeholders. Charlie is also a mentor to junior product managers and is passionate about helping others succeed in their careers."
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "jobName": "Software Engineer",
+      "requiredExperience": "5 years",
+      "date_posted": "2023-06-14",
+      "skills_required": [
+        "Java",
+        "SQL",
+        "JavaScript",
+        "AWS",
+        "Docker"
+      ],
+      "short_description": "The Software Engineer is responsible for various technical tasks related to software development. This role involves working on software projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Software Engineer is responsible for various technical tasks related to software development. This role involves working on software projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Python, C++, Linux, Agile, Cloud Computing."
+    },
+    {
+      "id": 2,
+      "jobName": "Data Scientist",
+      "requiredExperience": "4 years",
+      "date_posted": "2024-02-19",
+      "skills_required": [
+        "Python",
+        "Data Science",
+        "Machine Learning",
+        "SQL",
+        "AWS"
+      ],
+      "short_description": "The Data Scientist is responsible for tasks related to data analysis and machine learning. This role involves analyzing large datasets and developing models.",
+      "full_details": "The Data Scientist is responsible for analyzing data and developing machine learning models. The role requires proficiency in Python, Data Science, Azure, Linux, and Cloud Computing."
+    },
+    {
+      "id": 3,
+      "jobName": "Cloud Architect",
+      "requiredExperience": "7 years",
+      "date_posted": "2024-05-13",
+      "skills_required": [
+        "AWS",
+        "Azure",
+        "Cloud Computing",
+        "DevOps",
+        "Kubernetes"
+      ],
+      "short_description": "The Cloud Architect is responsible for designing and implementing cloud infrastructure.",
+      "full_details": "The Cloud Architect oversees cloud infrastructure. Proficiency in AWS, Docker, GCP, Kubernetes, and CI/CD is required."
+    },
+    {
+      "id": 4,
+      "jobName": "DevOps Engineer",
+      "requiredExperience": "6 years",
+      "date_posted": "2023-11-02",
+      "skills_required": [
+        "DevOps",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Linux"
+      ],
+      "short_description": "The DevOps Engineer is responsible for automating software deployment and managing infrastructure.",
+      "full_details": "The DevOps Engineer ensures smooth deployment processes and infrastructure management. Proficiency in Git, Kubernetes, DevOps, Docker, and CI/CD is required."
+    },
+    {
+      "id": 5,
+      "jobName": "Cybersecurity Analyst",
+      "requiredExperience": "5 years",
+      "date_posted": "2024-04-30",
+      "skills_required": [
+        "Cybersecurity",
+        "Networking",
+        "Linux",
+        "Python",
+        "AWS"
+      ],
+      "short_description": "The Cybersecurity Analyst is responsible for identifying and mitigating security risks.",
+      "full_details": "The Cybersecurity Analyst works on identifying vulnerabilities and protecting systems. Proficiency in Networking, Linux, Python, Cybersecurity, and Cloud Computing is essential."
+    },
+    {
+      "id": 7,
+      "jobName": "Backend Developer",
+      "requiredExperience": "9 years",
+      "date_posted": "2024-01-11",
+      "skills_required": [
+        "C++",
+        "Node.js",
+        "CI/CD",
+        "Python",
+        "Java"
+      ],
+      "short_description": "The Backend Developer is responsible for various technical tasks related to backend developer. This role involves working on backend developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Backend Developer is responsible for various technical tasks related to backend developer. This role involves working on backend developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Networking, Docker, Node.js, JIRA, AI and the ability to adapt to new technologies."
+    },
+    {
+      "id": 8,
+      "jobName": "Full Stack Developer",
+      "requiredExperience": "10 years",
+      "date_posted": "2024-03-17",
+      "skills_required": [
+        "Data Science",
+        "Azure",
+        "AWS",
+        "Scrum",
+        "React"
+      ],
+      "short_description": "The Full Stack Developer is responsible for various technical tasks related to full stack developer. This role involves working on full stack developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Full Stack Developer is responsible for various technical tasks related to full stack developer. This role involves working on full stack developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Angular, CSS, HTML, Networking, C++ and the ability to adapt to new technologies."
+    },
+    {
+      "id": 9,
+      "jobName": "Database Administrator",
+      "requiredExperience": "2 years",
+      "date_posted": "2023-03-28",
+      "skills_required": [
+        "Agile",
+        "Blockchain",
+        "JavaScript",
+        "Scrum",
+        "Git"
+      ],
+      "short_description": "The Database Administrator is responsible for various technical tasks related to database administrator. This role involves working on database administrator projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Database Administrator is responsible for various technical tasks related to database administrator. This role involves working on database administrator projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Azure, Git, AWS, React, GCP and the ability to adapt to new technologies."
+    },
+    {
+      "id": 10,
+      "jobName": "Machine Learning Engineer",
+      "requiredExperience": "3 years",
+      "date_posted": "2023-05-14",
+      "skills_required": [
+        "HTML",
+        "DevOps",
+        "Kubernetes",
+        "Cloud Computing",
+        "Blockchain"
+      ],
+      "short_description": "The Machine Learning Engineer is responsible for various technical tasks related to machine learning engineer. This role involves working on machine learning engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Machine Learning Engineer is responsible for various technical tasks related to machine learning engineer. This role involves working on machine learning engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in HTML, Kubernetes, JavaScript, Azure, SQL and the ability to adapt to new technologies."
+    },
+    {
+      "id": 11,
+      "jobName": "Mobile App Developer",
+      "requiredExperience": "3 years",
+      "date_posted": "2024-08-10",
+      "skills_required": [
+        "Azure",
+        "Scrum",
+        "DevOps",
+        "Angular",
+        "Blockchain"
+      ],
+      "short_description": "The Mobile App Developer is responsible for various technical tasks related to mobile app developer. This role involves working on mobile app developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Mobile App Developer is responsible for various technical tasks related to mobile app developer. This role involves working on mobile app developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Node.js, Kubernetes, GCP, DevOps, Linux and the ability to adapt to new technologies."
+    },
+    {
+      "id": 12,
+      "jobName": "Blockchain Developer",
+      "requiredExperience": "10 years",
+      "date_posted": "2024-05-17",
+      "skills_required": [
+        "Data Science",
+        "HTML",
+        "SQL",
+        "CSS",
+        "Machine Learning"
+      ],
+      "short_description": "The Blockchain Developer is responsible for various technical tasks related to blockchain developer. This role involves working on blockchain developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Blockchain Developer is responsible for various technical tasks related to blockchain developer. This role involves working on blockchain developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in AI, CI/CD, Java, Networking, Cloud Computing and the ability to adapt to new technologies."
+    },
+    {
+      "id": 13,
+      "jobName": "Network Engineer",
+      "requiredExperience": "7 years",
+      "date_posted": "2023-08-01",
+      "skills_required": [
+        "Agile",
+        "Cybersecurity",
+        "GCP",
+        "Azure",
+        "Blockchain"
+      ],
+      "short_description": "The Network Engineer is responsible for various technical tasks related to network engineer. This role involves working on network engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Network Engineer is responsible for various technical tasks related to network engineer. This role involves working on network engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Scrum, Python, Kubernetes, JavaScript, CI/CD and the ability to adapt to new technologies."
+    },
+    {
+      "id": 14,
+      "jobName": "AI Engineer",
+      "requiredExperience": "7 years",
+      "date_posted": "2023-09-03",
+      "skills_required": [
+        "CI/CD",
+        "Node.js",
+        "Linux",
+        "Cybersecurity",
+        "Python"
+      ],
+      "short_description": "The AI Engineer is responsible for various technical tasks related to ai engineer. This role involves working on ai engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The AI Engineer is responsible for various technical tasks related to ai engineer. This role involves working on ai engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Kubernetes, CI/CD, Python, SQL, GCP and the ability to adapt to new technologies."
+    },
+    {
+      "id": 15,
+      "jobName": "System Administrator",
+      "requiredExperience": "10 years",
+      "date_posted": "2023-10-17",
+      "skills_required": [
+        "Networking",
+        "Azure",
+        "Linux",
+        "Microservices",
+        "Machine Learning"
+      ],
+      "short_description": "The System Administrator is responsible for various technical tasks related to system administrator. This role involves working on system administrator projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The System Administrator is responsible for various technical tasks related to system administrator. This role involves working on system administrator projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Docker, C++, Linux, Data Science, SQL and the ability to adapt to new technologies."
+    },
+    {
+      "id": 16,
+      "jobName": "Product Manager",
+      "requiredExperience": "8 years",
+      "date_posted": "2024-01-31",
+      "skills_required": [
+        "Docker",
+        "Angular",
+        "Cybersecurity",
+        "DevOps",
+        "Git"
+      ],
+      "short_description": "The Product Manager is responsible for various technical tasks related to product manager. This role involves working on product manager projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Product Manager is responsible for various technical tasks related to product manager. This role involves working on product manager projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in HTML, C++, Docker, Networking, Data Science and the ability to adapt to new technologies."
+    },
+    {
+      "id": 17,
+      "jobName": "IT Support Specialist",
+      "requiredExperience": "8 years",
+      "date_posted": "2024-04-26",
+      "skills_required": [
+        "Networking",
+        "JavaScript",
+        "Java",
+        "C++",
+        "Microservices"
+      ],
+      "short_description": "The IT Support Specialist is responsible for various technical tasks related to it support specialist. This role involves working on it support specialist projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The IT Support Specialist is responsible for various technical tasks related to it support specialist. This role involves working on it support specialist projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in JIRA, Machine Learning, HTML, AWS, Linux and the ability to adapt to new technologies."
+    },
+    {
+      "id": 18,
+      "jobName": "UX/UI Designer",
+      "requiredExperience": "8 years",
+      "date_posted": "2024-07-30",
+      "skills_required": [
+        "Python",
+        "DevOps",
+        "Git",
+        "Azure",
+        "Microservices"
+      ],
+      "short_description": "The UX/UI Designer is responsible for various technical tasks related to ux/ui designer. This role involves working on ux/ui designer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The UX/UI Designer is responsible for various technical tasks related to ux/ui designer. This role involves working on ux/ui designer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Cloud Computing, Azure, Scrum, DevOps, Git and the ability to adapt to new technologies."
+    },
+    {
+      "id": 19,
+      "jobName": "Solutions Architect",
+      "requiredExperience": "6 years",
+      "date_posted": "2023-11-19",
+      "skills_required": [
+        "C++",
+        "Networking",
+        "Cybersecurity",
+        "CI/CD",
+        "Linux"
+      ],
+      "short_description": "The Solutions Architect is responsible for various technical tasks related to solutions architect. This role involves working on solutions architect projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Solutions Architect is responsible for various technical tasks related to solutions architect. This role involves working on solutions architect projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in React, Java, Kubernetes, Agile, Networking and the ability to adapt to new technologies."
+    },
+    {
+      "id": 20,
+      "jobName": "Data Analyst",
+      "requiredExperience": "7 years",
+      "date_posted": "2024-05-13",
+      "skills_required": [
+        "Python",
+        "Agile",
+        "GCP",
+        "JIRA",
+        "DevOps"
+      ],
+      "short_description": "The Data Analyst is responsible for various technical tasks related to data analyst. This role involves working on data analyst projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Data Analyst is responsible for various technical tasks related to data analyst. This role involves working on data analyst projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Scrum, CI/CD, SQL, Microservices, HTML and the ability to adapt to new technologies."
+    },
+    {
+      "id": 21,
+      "jobName": "IT Project Manager",
+      "requiredExperience": "7 years",
+      "date_posted": "2024-09-25",
+      "skills_required": [
+        "React",
+        "AI",
+        "Networking",
+        "CSS",
+        "Data Science"
+      ],
+      "short_description": "The IT Project Manager is responsible for various technical tasks related to it project manager. This role involves working on it project manager projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The IT Project Manager is responsible for various technical tasks related to it project manager. This role involves working on it project manager projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Linux, HTML, JavaScript, AI, Cybersecurity and the ability to adapt to new technologies."
+    },
+    {
+      "id": 22,
+      "jobName": "QA Engineer",
+      "requiredExperience": "4 years",
+      "date_posted": "2023-12-28",
+      "skills_required": [
+        "Azure",
+        "CSS",
+        "Data Science",
+        "Cybersecurity",
+        "JIRA"
+      ],
+      "short_description": "The QA Engineer is responsible for various technical tasks related to qa engineer. This role involves working on qa engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The QA Engineer is responsible for various technical tasks related to qa engineer. This role involves working on qa engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Docker, Node.js, Python, Git, GCP and the ability to adapt to new technologies."
+    },
+    {
+      "id": 23,
+      "jobName": "Data Engineer",
+      "requiredExperience": "3 years",
+      "date_posted": "2023-09-25",
+      "skills_required": [
+        "DevOps",
+        "Linux",
+        "JavaScript",
+        "Java",
+        "Angular"
+      ],
+      "short_description": "The Data Engineer is responsible for various technical tasks related to data engineer. This role involves working on data engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Data Engineer is responsible for various technical tasks related to data engineer. This role involves working on data engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in GCP, HTML, Cybersecurity, Networking, AWS and the ability to adapt to new technologies."
+    },
+    {
+      "id": 24,
+      "jobName": "Site Reliability Engineer",
+      "requiredExperience": "4 years",
+      "date_posted": "2024-06-04",
+      "skills_required": [
+        "Networking",
+        "Java",
+        "Angular",
+        "Cloud Computing",
+        "Azure"
+      ],
+      "short_description": "The Site Reliability Engineer is responsible for various technical tasks related to site reliability engineer. This role involves working on site reliability engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Site Reliability Engineer is responsible for various technical tasks related to site reliability engineer. This role involves working on site reliability engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in DevOps, Cloud Computing, Node.js, Blockchain, Microservices and the ability to adapt to new technologies."
+    },
+    {
+      "id": 25,
+      "jobName": "Technical Writer",
+      "requiredExperience": "3 years",
+      "date_posted": "2023-12-18",
+      "skills_required": [
+        "CSS",
+        "CI/CD",
+        "JavaScript",
+        "GCP",
+        "Machine Learning"
+      ],
+      "short_description": "The Technical Writer is responsible for various technical tasks related to technical writer. This role involves working on technical writer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Technical Writer is responsible for various technical tasks related to technical writer. This role involves working on technical writer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Java, Cybersecurity, Linux, Networking, CI/CD and the ability to adapt to new technologies."
+    },
+    {
+      "id": 26,
+      "jobName": "Security Consultant",
+      "requiredExperience": "6 years",
+      "date_posted": "2024-06-25",
+      "skills_required": [
+        "AI",
+        "JIRA",
+        "Networking",
+        "SQL",
+        "Azure"
+      ],
+      "short_description": "The Security Consultant is responsible for various technical tasks related to security consultant. This role involves working on security consultant projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Security Consultant is responsible for various technical tasks related to security consultant. This role involves working on security consultant projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in JIRA, React, Machine Learning, CI/CD, DevOps and the ability to adapt to new technologies."
+    },
+    {
+      "id": 27,
+      "jobName": "BI Developer",
+      "requiredExperience": "6 years",
+      "date_posted": "2024-04-30",
+      "skills_required": [
+        "Angular",
+        "Kubernetes",
+        "DevOps",
+        "Data Science",
+        "Blockchain"
+      ],
+      "short_description": "The BI Developer is responsible for various technical tasks related to bi developer. This role involves working on bi developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The BI Developer is responsible for various technical tasks related to bi developer. This role involves working on bi developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in React, CI/CD, Microservices, HTML, Angular and the ability to adapt to new technologies."
+    },
+    {
+      "id": 28,
+      "jobName": "Embedded Systems Engineer",
+      "requiredExperience": "5 years",
+      "date_posted": "2024-04-23",
+      "skills_required": [
+        "Git",
+        "Node.js",
+        "SQL",
+        "Networking",
+        "React"
+      ],
+      "short_description": "The Embedded Systems Engineer is responsible for various technical tasks related to embedded systems engineer. This role involves working on embedded systems engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Embedded Systems Engineer is responsible for various technical tasks related to embedded systems engineer. This role involves working on embedded systems engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in AI, CSS, Cloud Computing, Linux, Kubernetes and the ability to adapt to new technologies."
+    },
+    {
+      "id": 29,
+      "jobName": "Game Developer",
+      "requiredExperience": "10 years",
+      "date_posted": "2023-08-20",
+      "skills_required": [
+        "Git",
+        "JavaScript",
+        "SQL",
+        "DevOps",
+        "AI"
+      ],
+      "short_description": "The Game Developer is responsible for various technical tasks related to game developer. This role involves working on game developer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Game Developer is responsible for various technical tasks related to game developer. This role involves working on game developer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in AWS, Linux, Docker, Agile, JavaScript and the ability to adapt to new technologies."
+    },
+    {
+      "id": 30,
+      "jobName": "Technical Support Engineer",
+      "requiredExperience": "7 years",
+      "date_posted": "2024-08-08",
+      "skills_required": [
+        "Cloud Computing",
+        "C++",
+        "DevOps",
+        "Docker",
+        "AWS"
+      ],
+      "short_description": "The Technical Support Engineer is responsible for various technical tasks related to technical support engineer. This role involves working on technical support engineer projects, solving complex problems, and using various skills in the IT industry.",
+      "full_details": "The Technical Support Engineer is responsible for various technical tasks related to technical support engineer. This role involves working on technical support engineer projects, solving complex problems, and using various skills in the IT industry. The role requires proficiency in Cloud Computing, Linux, CI/CD, JavaScript, Python and the ability to adapt to new technologies."
     }
   ]
 }

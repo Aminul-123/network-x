@@ -29,4 +29,10 @@ html {
   .detail-page {
     @apply h-auto mt-4 lg:mt-0 w-full lg:relative top-24 left-[27%] lg:w-[70%] ml-4 pr-4 mb-1 bg-slate-100 flex flex-col p-3 
   }
+  .filter-btn {
+    @apply p-2 w-24 transition-all rounded-full border-none outline-none italic hover:bg-teal-600 hover:text-white
+  }
+  .page-btn {
+    @apply p-2 w-28 border text-blue-600 border-blue-400 rounded-sm hover:bg-blue-400 hover:text-white transition-all
+  }
 }

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { getAllFriends } from '../services/getFriendsData';
+import React from 'react'
 import Friend from './Friend';
 import GoBackBtn from './GoBackBtn';
 import { useAllFriends } from './useAllFriends';

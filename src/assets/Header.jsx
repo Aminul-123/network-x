@@ -47,7 +47,7 @@ function Header() {
                    <IoHomeOutline className="md:h-6 md:w-6 " />
                     <h5>Home</h5>
               </Link>
-              <Link to={'/network'} className="flex flex-col items-center" onClick={() => dispatch(openNetworkPage())} >
+              <Link to={'/network'} className="flex flex-col items-center"  >
                    {/* <SiNintendonetwork className=" md:h-6 md:w-6" /> */}
                    <span>🔍</span>
                    <h5>Network</h5>

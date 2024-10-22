@@ -1,16 +1,14 @@
 
-import { Routes, Route, createBrowserRouter, RouterProvider, redirect, Navigate } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import './App.css'
 import Login from './assets/Login'
 import Home from './assets/Home'
 import AllFriends from './assets/AllFriends'
-import Header from './assets/Header'
-import LeftSideBar from './assets/LeftSideBar'
 import SavedPost from './assets/SavedPost'
-import RightSideBar from './assets/RightSideBar'
 import FriendDetail from './assets/FriendDetail'
 import AllJobs from './assets/AllJobs'
 import Feed from './assets/Feed';
+import JobDetail from './assets/JobDetail'
 
 function App() {
  
@@ -41,8 +39,16 @@ const router = createBrowserRouter([
         element : <FriendDetail />
       },
       {
-        path : 'saved-post',
+        path : '/saved-post',
         element : <SavedPost />
+      },
+      {
+        path : '/jobs',
+        element : <AllJobs />
+      },
+      {
+        path : '/jobs/job-detail/:id',
+        element : <JobDetail />
       }
     ]
 
